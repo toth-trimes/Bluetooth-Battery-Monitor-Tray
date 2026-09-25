@@ -6,6 +6,15 @@ Um utilitário leve, portátil e sem dependências externas pesadas, desenvolvid
 
 ---
 
+## 📸 Demonstração
+
+| Ícones na Barra de Tarefas (System Tray) | Menu de Contexto Interativo |
+| :---: | :---: |
+| ![Ícones na Barra de Tarefas](assets/tray_icons_preview.png) | ![Menu de Contexto](assets/tray_context_menu.png) |
+| *Exibição do glifo do dispositivo e porcentagem na bandeja* | *Menu de opções via clique com o botão direito* |
+
+---
+
 ## ✨ Principais Recursos
 
 - 📊 **Exibição em Tempo Real na Bandeja:**
@@ -81,6 +90,9 @@ Clique com o **botão direito do mouse** sobre o ícone do monitor na bandeja pa
 
 ```text
 Bluetooth-Battery-Monitor-Tray/
+├── assets/                           # Imagens e capturas de tela demonstrativas
+│   ├── tray_icons_preview.png
+│   └── tray_context_menu.png
 ├── Monitorar_Bateria_Bluetooth.bat   # Lançador amigável com bypass de política de execução
 ├── monitor_bateria_bluetooth.ps1     # Motor principal em PowerShell com rotinas Win32 e GDI+
 ├── .gitignore                        # Desconsidera arquivos de preferências e atalhos locais
